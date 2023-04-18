@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "WebP to PNG/JPEG Converter",
+  "version": "1.0",
+  "description": "Converts WebP images to PNG/JPEG format.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["contextMenus", "<all_urls>","downloads"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
